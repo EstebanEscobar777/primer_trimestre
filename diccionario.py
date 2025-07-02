@@ -309,12 +309,93 @@
 
 # -----------------ejercicio17--------------------
 
-dolares = float(input("Ingresa una cantidad en dólares: "))
+# dolares = float(input("Ingresa una cantidad en dólares: "))
 
-euro = 0.85
-peso = 3900
-yen = 110.2
+# euro = 0.85
+# peso = 3900
+# yen = 110.2
 
-conversion = (dolares * euro, dolares * peso, dolares * yen)
+# conversion = (dolares * euro, dolares * peso, dolares * yen)
 
-print("Tupla de conversiones:", conversion)
+# print("Tupla de conversiones:", conversion)
+
+# ---------------ejercicio18----------------
+
+# producto1 = input("Nombre del primer producto: ")
+# cantidad1 = int(input("Cantidad vendida de " + producto1 + ": "))
+
+# producto2 = input("Nombre del segundo producto: ")
+# cantidad2 = int(input("Cantidad vendida de " + producto2 + ": "))
+
+# producto3 = input("Nombre del tercer producto: ")
+# cantidad3 = int(input("Cantidad vendida de " + producto3 + ": "))
+
+# ventas = {
+#     producto1: cantidad1,
+#     producto2: cantidad2,
+#     producto3: cantidad3
+# }
+
+# total = cantidad1 + cantidad2 + cantidad3
+
+# print("Total de unidades vendidas:", total)
+
+# ------------ejercicio19-----------
+
+# t1 = float(input("Temperatura 1: "))
+# t2 = float(input("Temperatura 2: "))
+# t3 = float(input("Temperatura 3: "))
+# t4 = float(input("Temperatura 4: "))
+# t5 = float(input("Temperatura 5: "))
+# t6 = float(input("Temperatura 6: "))
+# t7 = float(input("Temperatura 7: "))
+# t8 = float(input("Temperatura 8: "))
+# t9 = float(input("Temperatura 9: "))
+# t10 = float(input("Temperatura 10: "))
+
+# temperaturas = [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]
+
+# a1 = t1 * (t1 > 30)
+# a2 = t2 * (t2 > 30)
+# a3 = t3 * (t3 > 30)
+# a4 = t4 * (t4 > 30)
+# a5 = t5 * (t5 > 30)
+# a6 = t6 * (t6 > 30)
+# a7 = t7 * (t7 > 30)
+# a8 = t8 * (t8 > 30)
+# a9 = t9 * (t9 > 30)
+# a10 = t10 * (t10 > 30)
+
+# b1 = t1 * (t1 < 10)
+# b2 = t2 * (t2 < 10)
+# b3 = t3 * (t3 < 10)
+# b4 = t4 * (t4 < 10)
+# b5 = t5 * (t5 < 10)
+# b6 = t6 * (t6 < 10)
+# b7 = t7 * (t7 < 10)
+# b8 = t8 * (t8 < 10)
+# b9 = t9 * (t9 < 10)
+# b10 = t10 * (t10 < 10)
+
+# mayores_30 = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]
+# menores_10 = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10]
+
+# print(f"Lista de temperaturas: {temperaturas}")
+# print(f"Temperaturas mayores a 30 grados: {mayores_30}")
+# print(f"Temperaturas menores a 10 grados: {menores_10}")
+
+# --------------------ejercicio20------------------
+
+precios = [100, 250, 75, 300, 150]
+
+print("Lista original:", precios)
+
+eliminar = int(input("Escribe un precio de la lista para eliminar: "))
+precios.remove(eliminar)
+
+nuevo = int(input("Escribe un nuevo precio para agregar: "))
+precios.append(nuevo)
+
+precios.sort()
+
+print("Lista actualizada y ordenada:", precios)
