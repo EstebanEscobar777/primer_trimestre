@@ -38,9 +38,9 @@
 
 #----------------------------ejercicio8------------------------------
 
-# presentacion
-
-
+presentacion= input("ingrese su numbre: ")
+presentacion2= input("ingrese su ciudad:")
+print(f"su nombre es {presentacion}, y su ciudad es {presentacion2}")
 
 #---------------------------ejercicio9------------------------------
 
