@@ -277,4 +277,4 @@
 # elif puntaje <= 79:
 #     print("Pasaste raspando")
 # else:
-#     print("Te fue super bien") d
+#     print("Te fue super bien") 
