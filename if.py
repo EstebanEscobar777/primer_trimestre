@@ -163,24 +163,89 @@
 
 #-------------ejercicio15----------------
 
-colores = ["rojo", "azul", "verde"]
-if colores[1] == "azul":
-    colores[1] = "amarillo"
-print(colores)
+# colores = ["rojo", "azul", "verde"]
+# if colores[1] == "azul":
+#     colores[1] = "amarillo"
+# print(colores)
 
 #--------------ejercicio16----------------
 
-
+# valores = (5, 8, 12, 20)
+# if valores[0] < valores[-1]:
+#     print("Orden ascendente")
+# else:
+#     print("Orden descendente")
 
 #---------------ejercicio17----------------
 
-
+# tupla = (25, 32, 28)
+# if tupla[1] > 30:
+#     print("Edad mayor a 30")
+# else:
+#     print("Edad menor o igual a 30")
 
 #-----------------ejercicio18-------------
 
+# t = (1, 2, 3)
+# lista = list(t)
+# if lista[1] == 2:
+#     lista[1] = 10
+# t = tuple(lista)
+# print(t)
 
 #---------------ejericio19---------------
 
-
+# coord = (4, 9)
+# if coord[1] > 5:
+#     print("Coordenada alta")
+# else:
+#     print("Coordenada baja")
 
 #--------------ejercicio20----------------
+
+# t1 = (3, 4)
+# t2 = (3, 5)
+# if t1 == t2:
+#     print("Tuplas iguales")
+# else:
+#     print("Tuplas diferentes")
+
+#----------------ejercicio21-----------------
+
+# persona = {"nombre": "Juan", "edad": 17}
+# if persona["edad"] >= 18:
+#     print("Adulto")
+# else:
+#     print("Menor de edad")
+
+#---------------ejercicio22----------------
+
+# persona = {"nombre": "Lucia", "edad": 20}
+# if persona["edad"] > 18:
+#     persona["edad"] = 21
+# print(persona)
+
+#--------------ejercicio23-----------------
+
+# persona = {"nombre": "Carlos"}
+# if "ciudad" not in persona:
+#     persona["ciudad"] = "Bogotá"
+# print(persona)
+
+#----------------ejercicio24---------------
+
+# producto = {"producto": "pan", "precio": 1200}
+# if "precio" in producto:
+#     print(producto["precio"])
+# else:
+#     print("No hay precio")
+
+#---------------ejercicio25----------------
+
+# inventario = {"pan": 1200, "leche": 2000}
+# if "pan" in inventario:
+#     print(inventario["pan"])
+# else:
+#     print("Producto no disponible")
+
+
